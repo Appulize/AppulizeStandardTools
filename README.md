@@ -4,4 +4,4 @@ This is a collection of some extensions and other useful packages that i use whe
 
 ## Usage
 
-Add https://github.com/Appulize/AppulizeStandardTools/Collection.json as a Package Collection in Xcode.
+Add https://raw.githubusercontent.com/Appulize/AppulizeStandardTools/main/Collection.json as a Package Collection in Xcode.
