@@ -8,6 +8,24 @@
         "revision" : "b4f23e24b5a1bff301efc5e70871083ca029ff95",
         "version" : "0.2.0"
       }
+    },
+    {
+      "identity" : "networkmonitor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Appulize/NetworkMonitor.git",
+      "state" : {
+        "revision" : "9a8b083929ea429de38f4ce48304a3dd6fb61d39",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "timedlock",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Appulize/TimedLock.git",
+      "state" : {
+        "revision" : "b6e6e0e8558bf97c03176e250d9061ef30c9ccf2",
+        "version" : "1.0.0"
+      }
     }
   ],
   "version" : 2
