@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "AppulizeStandardTools",
+    platforms: [.iOS(.v13), .macOS(.v10_15), .watchOS(.v6), .tvOS(.v13)],
     products: [
         .library(
             name: "AppulizeStandardTools",
@@ -17,6 +18,6 @@ let package = Package(
     targets: [
         .target(
             name: "AppulizeStandardTools",
-            dependencies: []),
+            dependencies: ["CollectionConcurrencyKit", "DebugLog"]),
     ]
 )

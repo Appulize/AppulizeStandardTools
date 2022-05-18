@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Appulize/DebugLog.git",
       "state" : {
-        "revision" : "79c901911b8aa863dadfd543fd43c61fb0697e31",
-        "version" : "1.0.1"
+        "revision" : "fbb603146d3337c262a18709bb4b9f0a9e166f86",
+        "version" : "1.0.2"
       }
     }
   ],
