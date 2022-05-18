@@ -1,11 +1,9 @@
 {
-    "name": "AppulizeStandardTools",
+    "name": "Appulize Standard Tools",
     "packages": [
-        {
-            "url": "https://github.com/Appulize/AppulizeStandardTools.git",
-            "url": "https://github.com/Appulize/NetworkMonitor.git",
-            "url": "https://github.com/Appulize/TimedLock.git",
-            "url": "https://github.com/JohnSundell/CollectionConcurrencyKit.git",
-        }
+        { "url": "https://github.com/Appulize/AppulizeStandardTools.git" },
+        { "url": "https://github.com/Appulize/NetworkMonitor.git" },
+        { "url": "https://github.com/Appulize/TimedLock.git" },
+        { "url": "https://github.com/JohnSundell/CollectionConcurrencyKit.git" }
     ]
 }
