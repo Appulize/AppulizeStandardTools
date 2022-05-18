@@ -22,7 +22,7 @@
 
 import Foundation
 
-func delay(_ delay: Double = 0, block: @escaping () -> Void) {
+public func delay(_ delay: Double = 0, block: @escaping () -> Void) {
     switch delay {
     case 0:
         DispatchQueue.main.async {

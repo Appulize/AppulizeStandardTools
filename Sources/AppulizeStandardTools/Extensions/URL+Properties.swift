@@ -14,7 +14,7 @@ import Foundation
  This extension simplifies access to file attributes.
  */
 
-extension URL {
+public extension URL {
     /// Provides simplified one-line access to file attributes.
     var attributes: [FileAttributeKey: Any]? {
         do {
