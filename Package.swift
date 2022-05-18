@@ -13,11 +13,10 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/JohnSundell/CollectionConcurrencyKit.git", from: .init(0, 2, 0)),
-        .package(url: "https://github.com/Appulize/DebugLog.git", from: .init(1, 0, 0)),
     ],
     targets: [
         .target(
             name: "AppulizeStandardTools",
-            dependencies: ["CollectionConcurrencyKit", "DebugLog"]),
+            dependencies: ["CollectionConcurrencyKit"]),
     ]
 )
