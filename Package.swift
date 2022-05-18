@@ -11,14 +11,9 @@ let package = Package(
             name: "AppulizeStandardTools",
             targets: ["AppulizeStandardTools"]),
     ],
-    dependencies: [
-        .package(url: "https://github.com/JohnSundell/CollectionConcurrencyKit.git", from: .init(0, 2, 0)),
-        .package(url: "https://github.com/Appulize/TimedLock.git", from: .init(1, 0, 0)),
-        .package(url: "https://github.com/Appulize/NetworkMonitor.git", from: .init(1, 0, 0)),
-    ],
     targets: [
         .target(
-            name: "AppulizeStandardTools",
-            dependencies: ["CollectionConcurrencyKit", "TimedLock", "NetworkMonitor"]),
+            name: "AppulizeStandardTools"
+        )
     ]
 )
